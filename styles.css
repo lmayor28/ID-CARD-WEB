@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to right, #1e1e1e 0%, #2d2d2d 50%, #1e1e1e 100%);
+    background-size: 400% 400%;
+    animation: moveGradient 7s ease infinite;
+  }
+  
+  @keyframes moveGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+  
+  
+  
+  
+
+/* * body {
+    background-image: url('Fondo1.jpdg');
+    background-size: cover;
+    animation: moveBackground 10s linear infinite;
+  }
+  
+  @keyframes moveBackground {
+    from {background-position: 0 0;}
+    to {background-position: 100% 0;}
+  }  */
+
+  img {
+    border-radius: 20%;
+  }
+
+  p.lead {
+    text-align: justify;
+  }
+  
